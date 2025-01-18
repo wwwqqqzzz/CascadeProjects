@@ -1,0 +1,246 @@
+Proxy Performance Benchmark Summary
+==================================
+
+
+Scenario: light_load
+--------------------
+
+Endpoint: latency
+Success Rate: 100.00%
+Average Response Time: 2.768s
+Error Rate: 0.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+  Proxy 3016b25e-8e1e-4b3f-b057-42c1441a2bfb:
+    Success Rate: 100.00%
+    Average Response Time: 2.854s
+    Total Requests: 4
+  Proxy d665f669-3ccc-46c1-8a4b-e657081ebc30:
+    Success Rate: 100.00%
+    Average Response Time: 2.877s
+    Total Requests: 4
+  Proxy 1aec3bc3-18ea-453a-86ec-537817aa9a32:
+    Success Rate: 100.00%
+    Average Response Time: 2.378s
+    Total Requests: 2
+
+Response Time Percentiles:
+  50th: 2.869s
+  75th: 2.892s
+  90th: 3.119s
+  95th: 3.246s
+  99th: 3.348s
+
+
+Endpoint: bandwidth
+Success Rate: 100.00%
+Average Response Time: 1.923s
+Error Rate: 0.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+  Proxy 1aec3bc3-18ea-453a-86ec-537817aa9a32:
+    Success Rate: 100.00%
+    Average Response Time: 1.917s
+    Total Requests: 5
+  Proxy d665f669-3ccc-46c1-8a4b-e657081ebc30:
+    Success Rate: 100.00%
+    Average Response Time: 1.979s
+    Total Requests: 1
+  Proxy 3016b25e-8e1e-4b3f-b057-42c1441a2bfb:
+    Success Rate: 100.00%
+    Average Response Time: 1.918s
+    Total Requests: 4
+
+Response Time Percentiles:
+  50th: 1.950s
+  75th: 1.984s
+  90th: 2.001s
+  95th: 2.017s
+  99th: 2.030s
+
+
+Endpoint: cpu
+Success Rate: 100.00%
+Average Response Time: 1.399s
+Error Rate: 0.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+  Proxy 3016b25e-8e1e-4b3f-b057-42c1441a2bfb:
+    Success Rate: 100.00%
+    Average Response Time: 1.373s
+    Total Requests: 3
+  Proxy 1aec3bc3-18ea-453a-86ec-537817aa9a32:
+    Success Rate: 100.00%
+    Average Response Time: 1.415s
+    Total Requests: 4
+  Proxy d665f669-3ccc-46c1-8a4b-e657081ebc30:
+    Success Rate: 100.00%
+    Average Response Time: 1.403s
+    Total Requests: 3
+
+Response Time Percentiles:
+  50th: 1.381s
+  75th: 1.432s
+  90th: 1.444s
+  95th: 1.459s
+  99th: 1.470s
+
+
+Scenario: medium_load
+---------------------
+
+Endpoint: latency
+Success Rate: 40.00%
+Average Response Time: 2.483s
+Error Rate: 60.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+  Proxy 3016b25e-8e1e-4b3f-b057-42c1441a2bfb:
+    Success Rate: 100.00%
+    Average Response Time: 2.486s
+    Total Requests: 8
+  Proxy d665f669-3ccc-46c1-8a4b-e657081ebc30:
+    Success Rate: 100.00%
+    Average Response Time: 2.458s
+    Total Requests: 7
+  Proxy 1aec3bc3-18ea-453a-86ec-537817aa9a32:
+    Success Rate: 100.00%
+    Average Response Time: 2.513s
+    Total Requests: 5
+
+Response Time Percentiles:
+  50th: 2.423s
+  75th: 2.494s
+  90th: 2.663s
+  95th: 2.759s
+  99th: 2.762s
+
+Sample Errors:
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+
+
+Endpoint: bandwidth
+Success Rate: 0.00%
+Average Response Time: 0.000s
+Error Rate: 100.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+
+Response Time Percentiles:
+  50th: 0.000s
+  75th: 0.000s
+  90th: 0.000s
+  95th: 0.000s
+  99th: 0.000s
+
+Sample Errors:
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+
+
+Endpoint: cpu
+Success Rate: 0.00%
+Average Response Time: 0.000s
+Error Rate: 100.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+
+Response Time Percentiles:
+  50th: 0.000s
+  75th: 0.000s
+  90th: 0.000s
+  95th: 0.000s
+  99th: 0.000s
+
+Sample Errors:
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+
+
+Scenario: heavy_load
+--------------------
+
+Endpoint: latency
+Success Rate: 0.00%
+Average Response Time: 0.000s
+Error Rate: 100.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+
+Response Time Percentiles:
+  50th: 0.000s
+  75th: 0.000s
+  90th: 0.000s
+  95th: 0.000s
+  99th: 0.000s
+
+Sample Errors:
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+
+
+Endpoint: bandwidth
+Success Rate: 0.00%
+Average Response Time: 0.000s
+Error Rate: 100.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+
+Response Time Percentiles:
+  50th: 0.000s
+  75th: 0.000s
+  90th: 0.000s
+  95th: 0.000s
+  99th: 0.000s
+
+Sample Errors:
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+
+
+Endpoint: cpu
+Success Rate: 0.00%
+Average Response Time: 0.000s
+Error Rate: 100.00%
+Timeout Rate: 0.00%
+
+Proxy Performance:
+
+Response Time Percentiles:
+  50th: 0.000s
+  75th: 0.000s
+  90th: 0.000s
+  95th: 0.000s
+  99th: 0.000s
+
+Sample Errors:
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+  - No proxy available
+

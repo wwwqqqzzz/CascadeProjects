@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-01-17T00:01:14.509597",
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "amount": null,
+    "price": 50000.0,
+    "quantity": 0.001,
+    "status": "FILLED",
+    "test_mode": true,
+    "signal": null,
+    "error": null
+  }
+]

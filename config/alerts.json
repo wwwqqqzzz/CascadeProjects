@@ -1,0 +1,43 @@
+{
+    "thresholds": {
+        "api_latency": {
+            "warning": 0.5,
+            "critical": 1.0,
+            "window": 60,
+            "min_samples": 3
+        },
+        "error_rate": {
+            "warning": 0.05,
+            "critical": 0.1,
+            "window": 300,
+            "min_samples": 10
+        },
+        "execution_time": {
+            "warning": 2.0,
+            "critical": 5.0,
+            "window": 300,
+            "min_samples": 5
+        }
+    },
+    "notifications": {
+        "channels": [
+            "log"
+        ],
+        "telegram": {
+            "bot_token": "",
+            "chat_id": ""
+        },
+        "email": {
+            "smtp_server": "",
+            "smtp_port": 587,
+            "username": "",
+            "password": "",
+            "from_addr": "",
+            "to_addrs": []
+        }
+    },
+    "alert_rules": {
+        "cooldown": 300,
+        "aggregation": "avg"
+    }
+}

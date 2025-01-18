@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-01-16T23:56:11.082707",
+    "symbol": "BTCUSDT",
+    "side": "BUY",
+    "amount": null,
+    "price": 50000.0,
+    "quantity": 0.001,
+    "status": "FILLED",
+    "test_mode": true,
+    "signal": null,
+    "error": null
+  },
+  {
+    "timestamp": "2025-01-16T22:12:00.678816",
+    "symbol": "BTCUSDT",
+    "side": null,
+    "amount": null,
+    "price": 50000.0,
+    "quantity": 0.001,
+    "status": "success",
+    "test_mode": true,
+    "signal": null,
+    "error": null
+  }
+]
