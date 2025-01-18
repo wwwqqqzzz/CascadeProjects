@@ -33,7 +33,7 @@ Crypto Monitor 是一个功能强大的加密货币交易监控系统，集成�
 
 1. 克隆项目仓库：
 ```bash
-git clone [repository_url]
+https://github.com/wwwqqqzzz/CascadeProjects.git
 cd crypto_monitor
 ```
 
